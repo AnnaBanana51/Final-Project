@@ -26,13 +26,9 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///Anna-Levy.db'
 # if you don't get one with out it, feel free to remove
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-#
-# DB SETUP
-# 
-
 # this set's up our db connection to our flask application
 db = SQLAlchemy(app)
-
+#DB setup
 # this is our model (aka table)
 class Bitcoin(db.Model):
     __tablename__ = "bitTable"
