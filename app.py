@@ -60,7 +60,8 @@ def welcome_message():
 
 
 
-
+if __name__ == '__main__':
+    app.run(debug=True)
 
 
 
@@ -118,7 +119,6 @@ def welcome_message():
 # CODE TO BE EXECUTED WHEN RAN AS SCRIPT
 #
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
     
     
