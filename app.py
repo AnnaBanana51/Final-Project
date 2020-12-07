@@ -54,7 +54,7 @@ def get_data():
 
 @app.route('/', methods=['GET'])
 def welcome_message():
-    return f"Hello to my Bitcoin Data from coinmarketcap.com website"
+    return f"Hello and welcome to my Bitcoin Data from coinmarketcap.com website"
 
 
 
