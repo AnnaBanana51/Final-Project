@@ -5,7 +5,7 @@ url = "https://coinmarketcap.com/2/"
 scraper_data = scraper(url)
 
 def put_together():
-    #will male sure the database empty
+    #will make sure the database empty
     db.drop_all()
     #create the columns of database
     db.create_all()
